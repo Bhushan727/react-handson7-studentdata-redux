@@ -1,0 +1,22 @@
+.navContainer{
+    height: 10vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkD{
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color:lightgreen;
+    padding: 5px 25px;
+}
+.linkD:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad ;
+    color: #fff;
+    transition: .2s;
+}
